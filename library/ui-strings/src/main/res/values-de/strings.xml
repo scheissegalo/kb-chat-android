@@ -922,7 +922,7 @@
     <string name="downloaded_file">Die Datei %1$s wurde heruntergeladen!</string>
     <string name="room_filtering_footer_title">Kannst du nicht finden, wonach du suchst\?</string>
     <string name="room_filtering_footer_create_new_room">Erstelle einen neuen Raum</string>
-    <string name="room_directory_search_hint">Name oder ID (#beispiel:matrix.org)</string>
+    <string name="room_directory_search_hint">Name oder ID (#beispiel:chat.north-industries.com)</string>
     <string name="labs_swipe_to_reply_in_timeline">Wischen, um in der Zeitleiste zu antworten</string>
     <string name="action_decline">Ablehnen</string>
     <string name="push_gateway_item_app_id">App-ID:</string>
@@ -1057,7 +1057,7 @@
     <string name="login_splash_submit">Los geht\'s</string>
     <string name="login_server_title">Wähle einen Server</string>
     <string name="login_server_text">Genau wie bei E-Mails haben Accounts ein Zuhause, auch wenn du mit jedem kommunizieren kannst</string>
-    <string name="login_server_matrix_org_text">Folge Millionen Anderen kostenlos auf dem größten öffentlichen Server</string>
+    <string name="login_server_matrix_org_text">Unser öffentlicher Server</string>
     <string name="login_server_modular_text">Premium-Hosting für Organisationen</string>
     <string name="login_server_modular_learn_more">Mehr erfahren</string>
     <string name="login_server_other_title">Andere</string>
@@ -1113,7 +1113,7 @@
     <string name="login_signup_password_hint">Passwort</string>
     <string name="login_signup_error_user_in_use">Dieser Benutzername ist bereits belegt</string>
     <string name="login_signup_cancel_confirmation_content">Dein Benutzerkonto ist noch nicht erstellt. Möchtest du die Registrierung stoppen\?</string>
-    <string name="login_a11y_choose_matrix_org">matrix.org auswählen</string>
+    <string name="login_a11y_choose_matrix_org">chat.north-industries.com auswählen</string>
     <string name="login_a11y_choose_modular">modular auswählen</string>
     <string name="login_a11y_choose_other">Benutzerdefinierten Server auswählen</string>
     <string name="login_terms_title">Bedingungen akzeptieren um fortzufahren</string>
@@ -2550,8 +2550,8 @@
         <item quantity="one">%d Nachricht gelöscht</item>
         <item quantity="other">%d Nachrichten gelöscht</item>
     </plurals>
-    <string name="labs_enable_element_call_permission_shortcuts">Keine Element Call-Berechtigungsabfragen</string>
-    <string name="labs_enable_element_call_permission_shortcuts_summary">Bestätige automatisch Element Call-Widgets und erlaube Kamera- und Mikrofonzugriff</string>
+    <string name="labs_enable_element_call_permission_shortcuts">Keine KB-Chat Call-Berechtigungsabfragen</string>
+    <string name="labs_enable_element_call_permission_shortcuts_summary">Bestätige automatisch KB-Chat Call-Widgets und erlaube Kamera- und Mikrofonzugriff</string>
     <string name="create_room_action_go">Los</string>
     <string name="ftue_auth_create_account_edit_server_selection">ändern</string>
     <string name="ftue_auth_create_account_sso_section_header">oder</string>

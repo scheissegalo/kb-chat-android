@@ -1750,7 +1750,7 @@
     <string name="room_filtering_footer_create_new_direct_message">Send a new direct message</string>
     <string name="room_filtering_footer_open_room_directory">View the room directory</string>
 
-    <string name="room_directory_search_hint">Name or ID (#example:matrix.org)</string>
+    <string name="room_directory_search_hint">Name or ID (#example:chat.north-industries.com)</string>
     <string name="user_directory_search_hint_2">Search by name, ID or mail</string>
 
     <string name="search_hint_room_name">Search Name</string>
@@ -2028,7 +2028,7 @@
 
     <string name="login_server_title">Select a server</string>
     <string name="login_server_text">Just like email, accounts have one home, although you can talk to anyone</string>
-    <string name="login_server_matrix_org_text">Join millions for free on the largest public server</string>
+    <string name="login_server_matrix_org_text">Join our public server</string>
     <string name="login_server_modular_text">Premium hosting for organisations</string>
     <string name="login_server_modular_learn_more">Learn more</string>
     <string name="login_server_other_title">Other</string>
@@ -2128,7 +2128,7 @@
     <string name="login_signup_cancel_confirmation_title">Warning</string>
     <string name="login_signup_cancel_confirmation_content">Your account is not created yet. Stop the registration process?</string>
 
-    <string name="login_a11y_choose_matrix_org">Select matrix.org</string>
+    <string name="login_a11y_choose_matrix_org">Select chat.north-industries.com</string>
     <string name="login_a11y_choose_modular">Select Element Matrix Services</string>
     <string name="login_a11y_choose_other">Select a custom homeserver</string>
     <string name="login_a11y_captcha_container">Please perform the captcha challenge</string>
@@ -3206,8 +3206,8 @@
     </plurals>
 
     <!-- Element Call Widget -->
-    <string name="labs_enable_element_call_permission_shortcuts">Enable Element Call permission shortcuts</string>
-    <string name="labs_enable_element_call_permission_shortcuts_summary">Auto-approve Element Call widgets and grant camera / mic access</string>
+    <string name="labs_enable_element_call_permission_shortcuts">Enable KB-Chat Call permission shortcuts</string>
+    <string name="labs_enable_element_call_permission_shortcuts_summary">Auto-approve KB-Chat Call widgets and grant camera / mic access</string>
 
     <!-- Device Manager -->
     <string name="device_manager_settings_active_sessions_show_all">Show All Sessions (V2, WIP)</string>
