@@ -22,3 +22,7 @@
 /package.json
 /yarn.lock
 /node_modules
+
+/vector-app/src/gplay/debug/google-services.json
+/vector-app/src/gplay/nightly/google-services.json
+/vector-app/src/gplay/release/google-services.json
