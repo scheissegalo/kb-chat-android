@@ -237,7 +237,7 @@ android {
             applicationIdSuffix ".debug"
             signingConfig signingConfigs.debug
             resValue "string", "app_name", "KB-Chat dbg"
-            resValue "color", "launcher_background", "#FFFFFF"
+            resValue "color", "launcher_background", "#0095db"
 
             if (project.hasProperty("coverage")) {
                 testCoverageEnabled = coverage.enableTestCoverage
@@ -246,7 +246,7 @@ android {
 
         release {
             resValue "string", "app_name", "KB-Chat"
-            resValue "color", "launcher_background", "#FFFFFF"
+            resValue "color", "launcher_background", "#0095db"
             postprocessing {
                 removeUnusedCode true
                 removeUnusedResources true
@@ -263,7 +263,7 @@ android {
             applicationIdSuffix ".nightly"
             versionNameSuffix "-nightly"
             // Just override the background color of the launcher icon for the nightly build.
-            resValue "color", "launcher_background", "#07007E"
+            resValue "color", "launcher_background", "#0095db"
             // We need to copy paste this block, this is not done automatically by `initWith release`
             postprocessing {
                 removeUnusedCode true
