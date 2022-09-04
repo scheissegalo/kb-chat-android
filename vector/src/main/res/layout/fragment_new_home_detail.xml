@@ -111,13 +111,11 @@
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/newLayoutOpenSpacesButton"
-        style="@style/Widget.Vector.FloatingActionButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:accessibilityTraversalAfter="@id/newLayoutCreateChatButton"
         android:contentDescription="@string/a11y_open_spaces"
-        android:src="@drawable/ic_open_spaces"
         android:visibility="gone"
         app:backgroundTint="?attr/vctr_toolbar_background"
         app:fabSize="mini"
