@@ -99,6 +99,14 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.15"
+            android:contentDescription="@string/image_description"
+            app:srcCompat="@drawable/element_logo_stars" />
+
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -118,7 +126,7 @@
         app:layout_constraintStart_toStartOf="@id/newLayoutCreateChatButton"
         app:tint="?attr/colorPrimary"
         tools:targetApi="lollipop_mr1"
-        tools:visibility="visible" />
+        tools:visibility="gone" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/newLayoutCreateChatButton"
