@@ -152,7 +152,7 @@ class PreviewUrlRetriever(
         private const val CACHE_VALIDITY = 604_800_000L // 7 * 24 * 3_600 * 1_000
 
         private val blockedDomains = listOf(
-                "https://matrix.to",
+                "https://chat.klabausterbeere.xyz",
                 "https://app.element.io",
                 "https://staging.element.io",
                 "https://develop.element.io"
