@@ -47,7 +47,9 @@ static def generateVersionCodeFromTimestamp() {
     // It's unix timestamp, minus timestamp of October 3rd 2018 (first commit date) divided by 100: It's incremented by one every 100 seconds.
     // plus 20_000_000 for compatibility reason with the previous way the Version Code was computed
     // Note that the result will be multiplied by 10 when adding the digit for the arch
-    return ((getGitTimestamp() - 1_538_524_800) / 100).toInteger() + 20_000_000
+    return ((getGitTimestamp() - 1_538_524_800) / 100).toInteger() + 40_000_000
+    // Google Version Code
+    //return 401008631
 }
 
 def generateVersionCodeFromVersionName() {
@@ -143,6 +145,7 @@ android {
         // `develop` branch will have version code from timestamp, to ensure each build from CI has a incremented versionCode.
         // Other branches (main, features, etc.) will have version code based on application version.
         versionCode project.getVersionCode()
+        //versionCode "401008631"
 
         // Required for sonar analysis
         versionName "${versionMajor}.${versionMinor}.${versionPatch}-sonar"

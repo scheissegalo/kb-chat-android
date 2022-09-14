@@ -11,35 +11,9 @@
       "type": "UNIVERSAL",
       "filters": [],
       "attributes": [],
-      "versionCode": 212378800,
+      "versionCode": 212379810,
       "versionName": "1.4.36-dev",
-      "outputFile": "vector-gplay-universal-release.apk"
-    },
-    {
-      "type": "ONE_OF_MANY",
-      "filters": [
-        {
-          "filterType": "ABI",
-          "value": "x86_64"
-        }
-      ],
-      "attributes": [],
-      "versionCode": 212378804,
-      "versionName": "1.4.36-dev",
-      "outputFile": "vector-gplay-x86_64-release.apk"
-    },
-    {
-      "type": "ONE_OF_MANY",
-      "filters": [
-        {
-          "filterType": "ABI",
-          "value": "x86"
-        }
-      ],
-      "attributes": [],
-      "versionCode": 212378803,
-      "versionName": "1.4.36-dev",
-      "outputFile": "vector-gplay-x86-release.apk"
+      "outputFile": "kbchat-gplay-universal-release.apk"
     },
     {
       "type": "ONE_OF_MANY",
@@ -50,9 +24,22 @@
         }
       ],
       "attributes": [],
-      "versionCode": 212378802,
+      "versionCode": 212379812,
       "versionName": "1.4.36-dev",
-      "outputFile": "vector-gplay-arm64-v8a-release.apk"
+      "outputFile": "kbchat-gplay-arm64-v8a-release.apk"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "x86"
+        }
+      ],
+      "attributes": [],
+      "versionCode": 212379813,
+      "versionName": "1.4.36-dev",
+      "outputFile": "kbchat-gplay-x86-release.apk"
     },
     {
       "type": "ONE_OF_MANY",
@@ -63,9 +50,22 @@
         }
       ],
       "attributes": [],
-      "versionCode": 212378801,
+      "versionCode": 212379811,
       "versionName": "1.4.36-dev",
-      "outputFile": "vector-gplay-armeabi-v7a-release.apk"
+      "outputFile": "kbchat-gplay-armeabi-v7a-release.apk"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "x86_64"
+        }
+      ],
+      "attributes": [],
+      "versionCode": 212379814,
+      "versionName": "1.4.36-dev",
+      "outputFile": "kbchat-gplay-x86_64-release.apk"
     }
   ],
   "elementType": "File"

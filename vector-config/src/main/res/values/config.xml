@@ -7,8 +7,8 @@
     <string name="matrix_org_server_url" translatable="false">https://chat.north-industries.com</string>
 
     <!-- Rageshake configuration -->
-    <string name="bug_report_url" translatable="false">https://riot.im/bugreports/submit</string>
-    <string name="bug_report_app_name" translatable="false">riot-android</string>
+    <string name="bug_report_url" translatable="false">https://bugs.klabausterbeere.xyz/api/submit</string>
+    <string name="bug_report_app_name" translatable="false">kb-chat-android</string>
     <string name="bug_report_auto_uisi_app_name" translatable="false">element-auto-uisi</string>
 
     <!--
@@ -26,7 +26,7 @@
     <string name="pusher_app_id" translatable="false">kb.chat</string>
 
     <!-- preferred jitsi domain -->
-    <string name="preferred_jitsi_domain" translatable="false">meet.element.io</string>
+    <string name="preferred_jitsi_domain" translatable="false">meet.klabausterbeere.xyz</string>
 
     <string-array name="room_directory_servers" translatable="false">
         <item>chat.north-industries.com</item>
@@ -37,7 +37,7 @@
     <string-array name="permalink_supported_hosts" translatable="false">
         <item>kb.chat</item>
         <!-- Regular Element Web instance -->
-        <item>app.element.io</item>
+        <item>chat.klabausterbeere.xyz</item>
         <!-- Other known instances of Element Web -->
         <item>develop.element.io</item>
         <item>staging.element.io</item>

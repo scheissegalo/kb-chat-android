@@ -25,7 +25,7 @@ import org.matrix.android.sdk.api.session.events.model.Event
 interface PermalinkService {
 
     companion object {
-        const val MATRIX_TO_URL_BASE = "https://chat.klabausterbeere.xyz/#/"
+        const val MATRIX_TO_URL_BASE = "https://chat.klabausterbeere.xyz/#/user/"
     }
 
     enum class SpanTemplateType {

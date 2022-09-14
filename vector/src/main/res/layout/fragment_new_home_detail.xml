@@ -30,10 +30,10 @@
         android:id="@+id/syncStateView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:visibility="gone"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/currentCallsView"
-        tools:visibility="gone" />
+        app:layout_constraintTop_toBottomOf="@id/currentCallsView" />
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:layout_width="match_parent"
@@ -111,11 +111,13 @@
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/newLayoutOpenSpacesButton"
+        style="@style/Widget.Vector.FloatingActionButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:accessibilityTraversalAfter="@id/newLayoutCreateChatButton"
         android:contentDescription="@string/a11y_open_spaces"
+        android:src="@drawable/ic_open_spaces"
         android:visibility="gone"
         app:backgroundTint="?attr/vctr_toolbar_background"
         app:fabSize="mini"
@@ -124,7 +126,7 @@
         app:layout_constraintStart_toStartOf="@id/newLayoutCreateChatButton"
         app:tint="?attr/colorPrimary"
         tools:targetApi="lollipop_mr1"
-        tools:visibility="gone" />
+        tools:visibility="visible" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/newLayoutCreateChatButton"
