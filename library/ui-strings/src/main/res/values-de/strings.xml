@@ -1179,7 +1179,7 @@
     <string name="soft_logout_clear_data_dialog_e2e_warning_content">Du verlierst den Zugriff auf verschlüsselte Nachrichten, außer, du meldest dich an, um den Schlüssel wiederherzustellen.</string>
     <string name="soft_logout_sso_not_same_user_error">Die aktuelle Sitzung gehört dem Benutzer %1$s. Die angegebenen Anmeldeinformationen sind vom Benutzer %2$s. Dies wird nicht von ${app_name} unterstützt.
 \nBitte zuerst die Daten löschen und dann erneut anmelden.</string>
-    <string name="permalink_malformed">matrix.to-Link fehlerhaft</string>
+    <string name="permalink_malformed">KB-Chat Link fehlerhaft</string>
     <string name="bug_report_error_too_short">Die Beschreibung ist zu kurz</string>
     <string name="notification_initial_sync">Initiale Synchronisierung…</string>
     <string name="settings_advanced_settings">Erweiterte Einstellungen</string>
@@ -2614,4 +2614,10 @@
     <string name="ftue_auth_choose_server_ems_cta">Kontakt aufnehmen</string>
     <string name="ftue_auth_choose_server_ems_subtitle">Element Matrix Services (EMS) ist ein robuster und zuverlässiger Hosting-Dienst für schnelle und sichere Echtzeitkommunikation. Erfahre mehr unter <a href="${ftue_ems_url}">element.io/ems</a></string>
     <string name="ftue_auth_choose_server_ems_title">Willst du deinen eigenen Server betreiben\?</string>
+
+    <!-- Home Screen -->
+    <string name="all_chats">Alle Chats</string>
+    <string name="start_chat">Chat Starten</string>
+    <string name="a11y_expand_space_children">Expand space children</string>
+    <string name="a11y_collapse_space_children">Collapse space children</string>
 </resources>

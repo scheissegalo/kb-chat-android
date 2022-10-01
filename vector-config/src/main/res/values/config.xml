@@ -26,7 +26,7 @@
     <string name="pusher_app_id" translatable="false">kb.chat</string>
 
     <!-- preferred jitsi domain -->
-    <string name="preferred_jitsi_domain" translatable="false">meet.klabausterbeere.xyz</string>
+    <string name="preferred_jitsi_domain" translatable="false">meet.element.io</string>
 
     <string-array name="room_directory_servers" translatable="false">
         <item>chat.north-industries.com</item>
@@ -38,6 +38,7 @@
         <item>kb.chat</item>
         <!-- Regular Element Web instance -->
         <item>chat.klabausterbeere.xyz</item>
+        <item>chat.north-industries.com</item>
         <!-- Other known instances of Element Web -->
         <item>develop.element.io</item>
         <item>staging.element.io</item>

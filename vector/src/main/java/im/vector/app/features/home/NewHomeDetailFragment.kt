@@ -28,6 +28,7 @@ import androidx.lifecycle.lifecycleScope
 import com.airbnb.mvrx.activityViewModel
 import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
+import com.google.android.gms.ads.*
 import com.google.android.material.appbar.AppBarLayout
 import dagger.hilt.android.AndroidEntryPoint
 import im.vector.app.R
@@ -84,6 +85,14 @@ class NewHomeDetailFragment :
     @Inject lateinit var spaceStateHandler: SpaceStateHandler
     @Inject lateinit var session: Session
     @Inject lateinit var buildMeta: BuildMeta
+
+    lateinit var adView: AdView
+
+    //private var _binding: FragmentNewHomeDetailBinding? = null
+
+    // This property is only valid between onCreateView and
+    // onDestroyView.
+    //private val binding get() = _binding!!
 
     private val viewModel: HomeDetailViewModel by fragmentViewModel()
     private val unknownDeviceDetectorSharedViewModel: UnknownDeviceDetectorSharedViewModel by activityViewModel()
@@ -184,6 +193,25 @@ class NewHomeDetailFragment :
                     currentCallsViewPresenter.updateCall(callManager.getCurrentCall(), callManager.getCalls())
                     invalidateOptionsMenu()
                 }
+
+        // Initialize and build banner Ads
+        MobileAds.initialize(requireActivity()) {}
+
+        //views.adViewContainer.addView(adView)
+
+        adView = views.adViewContainer
+        //adView = R.id.ad_view_container
+        val adRequest = AdRequest.Builder().build()
+
+        //if (adView.parent != null) {
+         //   (adView.parent as ViewGroup).removeView(adView) // <- fix
+        //}
+
+        adView.loadAd(adRequest)
+
+
+        // Add the adaptive banner to its container
+        //adView.addView(adView)
     }
 
     private fun setupObservers() {
