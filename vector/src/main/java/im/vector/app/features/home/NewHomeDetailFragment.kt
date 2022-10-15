@@ -28,7 +28,7 @@ import androidx.lifecycle.lifecycleScope
 import com.airbnb.mvrx.activityViewModel
 import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
-import com.google.android.gms.ads.*
+//import com.google.android.gms.ads.*
 import com.google.android.material.appbar.AppBarLayout
 import dagger.hilt.android.AndroidEntryPoint
 import im.vector.app.R
@@ -86,7 +86,7 @@ class NewHomeDetailFragment :
     @Inject lateinit var session: Session
     @Inject lateinit var buildMeta: BuildMeta
 
-    lateinit var adView: AdView
+    //lateinit var adView: AdView
 
     //private var _binding: FragmentNewHomeDetailBinding? = null
 
@@ -195,19 +195,19 @@ class NewHomeDetailFragment :
                 }
 
         // Initialize and build banner Ads
-        MobileAds.initialize(requireActivity()) {}
+        //MobileAds.initialize(requireActivity()) {}
 
         //views.adViewContainer.addView(adView)
 
-        adView = views.adViewContainer
+        //adView = views.adViewContainer
         //adView = R.id.ad_view_container
-        val adRequest = AdRequest.Builder().build()
+        //val adRequest = AdRequest.Builder().build()
 
         //if (adView.parent != null) {
          //   (adView.parent as ViewGroup).removeView(adView) // <- fix
         //}
 
-        adView.loadAd(adRequest)
+        //adView.loadAd(adRequest)
 
 
         // Add the adaptive banner to its container

@@ -153,7 +153,7 @@ class PreviewUrlRetriever(
 
         private val blockedDomains = listOf(
                 "https://chat.klabausterbeere.xyz",
-                "https://app.element.io",
+                "https://chat.north-industries.com",
                 "https://staging.element.io",
                 "https://develop.element.io"
         )

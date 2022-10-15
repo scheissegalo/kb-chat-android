@@ -48,16 +48,6 @@
             android:fitsSystemWindows="true"
             app:layout_constraintTop_toBottomOf="@id/syncStateView">
 
-            <com.google.android.gms.ads.AdView
-                android:id="@+id/ad_view_container"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fitsSystemWindows="false"
-                app:adSize="BANNER"
-                app:adUnitId="ca-app-pub-2131366451957046/6846121827"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"></com.google.android.gms.ads.AdView>
-
             <com.google.android.material.appbar.CollapsingToolbarLayout
                 android:id="@+id/collapsing_toolbar"
                 style="@style/Widget.Vector.Material3.CollapsingToolbar.Medium"

@@ -35,10 +35,8 @@
 
     <!-- Permalink config -->
     <string-array name="permalink_supported_hosts" translatable="false">
-        <item>kb.chat</item>
         <!-- Regular Element Web instance -->
         <item>chat.klabausterbeere.xyz</item>
-        <item>chat.north-industries.com</item>
         <!-- Other known instances of Element Web -->
         <item>develop.element.io</item>
         <item>staging.element.io</item>

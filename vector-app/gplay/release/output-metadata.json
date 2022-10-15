@@ -11,22 +11,9 @@
       "type": "UNIVERSAL",
       "filters": [],
       "attributes": [],
-      "versionCode": 412459200,
-      "versionName": "1.4.37-dev",
+      "versionCode": 412606190,
+      "versionName": "1.4.39-dev",
       "outputFile": "kbchat-gplay-universal-release.apk"
-    },
-    {
-      "type": "ONE_OF_MANY",
-      "filters": [
-        {
-          "filterType": "ABI",
-          "value": "armeabi-v7a"
-        }
-      ],
-      "attributes": [],
-      "versionCode": 412459201,
-      "versionName": "1.4.37-dev",
-      "outputFile": "kbchat-gplay-armeabi-v7a-release.apk"
     },
     {
       "type": "ONE_OF_MANY",
@@ -37,22 +24,9 @@
         }
       ],
       "attributes": [],
-      "versionCode": 412459204,
-      "versionName": "1.4.37-dev",
+      "versionCode": 412606194,
+      "versionName": "1.4.39-dev",
       "outputFile": "kbchat-gplay-x86_64-release.apk"
-    },
-    {
-      "type": "ONE_OF_MANY",
-      "filters": [
-        {
-          "filterType": "ABI",
-          "value": "x86"
-        }
-      ],
-      "attributes": [],
-      "versionCode": 412459203,
-      "versionName": "1.4.37-dev",
-      "outputFile": "kbchat-gplay-x86-release.apk"
     },
     {
       "type": "ONE_OF_MANY",
@@ -63,9 +37,35 @@
         }
       ],
       "attributes": [],
-      "versionCode": 412459202,
-      "versionName": "1.4.37-dev",
+      "versionCode": 412606192,
+      "versionName": "1.4.39-dev",
       "outputFile": "kbchat-gplay-arm64-v8a-release.apk"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "x86"
+        }
+      ],
+      "attributes": [],
+      "versionCode": 412606193,
+      "versionName": "1.4.39-dev",
+      "outputFile": "kbchat-gplay-x86-release.apk"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "armeabi-v7a"
+        }
+      ],
+      "attributes": [],
+      "versionCode": 412606191,
+      "versionName": "1.4.39-dev",
+      "outputFile": "kbchat-gplay-armeabi-v7a-release.apk"
     }
   ],
   "elementType": "File"

@@ -36,7 +36,7 @@ ext.versionMinor = 4
 // Note: even values are reserved for regular release, odd values for hotfix release.
 // When creating a hotfix, you should decrease the value, since the current value
 // is the value for the next regular release.
-ext.versionPatch = 37
+ext.versionPatch = 39
 
 static def getGitTimestamp() {
     def cmd = 'git show -s --format=%ct'
@@ -47,7 +47,7 @@ static def generateVersionCodeFromTimestamp() {
     // It's unix timestamp, minus timestamp of October 3rd 2018 (first commit date) divided by 100: It's incremented by one every 100 seconds.
     // plus 20_000_000 for compatibility reason with the previous way the Version Code was computed
     // Note that the result will be multiplied by 10 when adding the digit for the arch
-    return ((getGitTimestamp() - 1_538_524_800) / 100).toInteger() + 40_000_000
+    return ((getGitTimestamp() - 1_538_524_800) / 100).toInteger() + 40_000_005
     // Google Version Code
     //return 401008631
 }
@@ -355,7 +355,15 @@ dependencies {
     implementation libs.dagger.hilt
     implementation 'androidx.multidex:multidex:2.0.1'
     implementation "androidx.sharetarget:sharetarget:1.1.0"
-    implementation 'com.google.android.gms:play-services-ads:21.2.0'
+    // Google ads
+    // implementation 'com.google.android.gms:play-services-ads:21.2.0'
+    // Google Billing
+    //def billing_version = "5.0.0"
+    //implementation "com.android.billingclient:billing:$billing_version"
+    //implementation "com.android.billingclient:billing-ktx:$billing_version"
+    //implementation "com.android.billingclient:billing-ktx:$billing_version"
+    //implementation("com.android.billingclient:billing-ktx:4.1.0")
+    //implementation("com.android.billingclient:billing:4.1.0")
 
     kapt libs.dagger.hiltCompiler
 
